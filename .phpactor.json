@@ -1,0 +1,10 @@
+{
+    "$schema": "/home/serban/src/phpactor/phpactor.schema.json",
+    "language_server_php_cs_fixer.bin": "/nix/store/q81f35r67pna3nlmz1p7rvxgz9pwpakq-php-php-cs-fixer-3.13.1/bin/php-cs-fixer",
+    "language_server_php_cs_fixer.enabled": true,
+    "language_server_phpstan.bin": "/nix/store/h0jnyh3y0xfs7cx4dyqah75y631qagay-php-phpstan-1.9.4/bin/phpstan",
+    "language_server_phpstan.enabled": true,
+    "language_server_psalm.bin": "/nix/store/a813i76d6555ms8ql2lhcz1f8k9ckzhg-php-psalm-5.4.0/bin/psalm",
+    "language_server_psalm.enabled": true,
+    "phpunit.enabled": true
+}

@@ -1,0 +1,24 @@
+{
+    "name": "serbanrobu/orc",
+    "type": "library",
+    "require-dev": {
+        "laravel/pint": "^1.8",
+        "pestphp/pest": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Șerban Robu",
+            "email": "serbanrobu@protonmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

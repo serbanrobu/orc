@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ramtmp="$(mktemp --tmpdir=/dev/shm)"
+
+cat - >$ramtmp
+
+./vendor/bin/pint $ramtmp --quiet
+
+cat $ramtmp
+
+rm $ramtmp
